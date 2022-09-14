@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.osx.deployment_target = '10.9'
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
 
   s.source_files = 'RealmConverter/**/*.{swift,h,m,c}'
